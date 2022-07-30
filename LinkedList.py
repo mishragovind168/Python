@@ -27,12 +27,14 @@ class LinkedList:
         else:
             node = Node(data,self.head)
             self.head = node
-            
+
+  # Delete First element          
     def delete_first(self):
         if self.head is None:
             print("LinkList is emPity")
         else:
             self.head.data = None
+            #self.head = self.head.next   #delet first element
             
     
 #Print function            
