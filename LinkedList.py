@@ -56,3 +56,11 @@ obj.insert_end(45)
 obj.print()
 obj.delete_first()
 obj.print()
+
+
+'''
+Output
+4--> 1--> 45--> 
+None--> 1--> 45-->
+
+'''
